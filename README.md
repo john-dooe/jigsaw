@@ -27,13 +27,15 @@ python3 jigsaw_restore.py -px [横向的块数] -py [纵向的块数] -sw [锯�
 
 ## 样例
 
-生成拼图
+example.png 的分辨率是 1000x1000
+
+以每一块 50x50，锯齿宽度 15px 生成拼图
 
 ```bash
 python3 jigsaw_create.py -i example/example.png -pw 50 -ph 50 -sw 15
 ```
 
-恢复拼图
+以横向 20 块，纵向 20 块，锯齿宽度 15px 恢复拼图
 
 ```bash
 python3 jigsaw_restore.py -px 20 -py 20 -sw 15
